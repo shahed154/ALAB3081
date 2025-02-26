@@ -44,7 +44,7 @@ console.log(isValid);
 const dontDoThis = ((n1 + n2 + n3 + n4) == 50) && 
   ((n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2) && 
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
-  (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);no
+  (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
 
 
@@ -65,4 +65,4 @@ console.log(firstLargerThanLast);
 console.log(arithmeticChain);
 console.log(isNotOver25);
 
-console.log (`The four numbers are valid according to the provided criteria: ${isValid}.`)
+console.log (`The four numbers are valid according to the provided criteria: ${newIsValid}.`)
