@@ -50,7 +50,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 
 // HOMEWORK
 
-const divisbleBy5 = n1 / 5 && n2 / 5 && n3 / 5 && n4 / 5;
+const divisbleBy5 = (n1 % 5 && n2 % 5  && n3 % 5  && n4 % 5) === 0;
 
 const firstLargerThanLast = n1 > n4; 
 
@@ -60,9 +60,11 @@ const isNotOver25 = !(n1 > 25) || !(n2 > 25) || !(n3 > 25) || !(n4 > 25);
 
 const newIsValid = isSum50 && isTwoOdd && isNotOver25 && isUnique;
  
+
 console.log(divisbleBy5);
 console.log(firstLargerThanLast);
 console.log(arithmeticChain);
 console.log(isNotOver25);
+
 
 console.log (`The four numbers are valid according to the provided criteria: ${newIsValid}.`)
